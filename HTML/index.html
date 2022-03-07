@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pandaderia el osito feliz</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <header>
+      <h1>Pasteleria el osito feliz</h1>
+      <a href="cliente.html">Combinaciones</a>
+    </header>
+
+    <main>
+      <!-- INICIO lista de pasteles con checkbox -->
+      <section>
+        <label><input type="checkbox" id="chb1" value="Pastel1"> Fresa</label>
+        <label><input type="checkbox" id="chb2" value="Pastel2"> Durazno</label>
+        <label><input type="checkbox" id="chb3" value="Pastel3"> Cafe</label>
+        <label><input type="checkbox" id="chb4" value="Pastel4"> Chocolate</label>
+        
+      </section>
+
+      <!-- FIN lista de pasteles con checkbox -->
+
+      <!--INICIO Formulario pasteleria -->
+      <section>
+        <form action="">
+            <label for="GET-name">Nombre:</label>
+            <input id="GET-name" type="text" name="name">
+          </form>
+          
+          <form action="" method="post">
+            <label for="POST-name">Teléfono:</label>
+            <input id="POST-name" type="text" name="name">
+          </form> 
+          <form action="" method="post">
+            <label for="POST-name">Correo:</label>
+            <input id="POST-name" type="text" name="name">
+          </form> 
+          <textarea name="texto" rows="4" cols="40" placeholder="Descripción de la orden"></textarea>
+      </section>
+      <!--Fin Formulario pasteleria -->
+    </main>
+
+    <footer>
+      <section>
+        <p>Correo: panaderiaositofeliz@yahoo.com</p>
+        <p>Direccion: Calle Nueva Suiza #77 Col.Europa</p>
+        <p>Telefono: 5555555555</p>
+        <p>Gracias por comprar en nuestras panaderia</p> 
+        
+      </section>
+      <p>&copy; 2020 - Pandaderia el osito feliz</p>
+    </footer>
+  </body>
 </html>
